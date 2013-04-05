@@ -1,0 +1,20 @@
+b1 = trigger
+b2 = top
+b3 = bottom
+b4 = side
+
+all four buttons use b1's gnd
+they are NO, so we need pullups.
+
+the hat switch uses y2 for all four buttons.
+
+the vcc it uses is pin1
+
+unpressed is 80k
+up is 1k
+left is 63k
+down is 41k
+right is 20k
+
+x axis: 20k 52k 86k
+y axis: 99k 55k 11k 
